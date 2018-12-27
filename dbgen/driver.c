@@ -707,10 +707,10 @@ main (int ac, char **av)
 	
 	if (verbose >= 0)
 		{
-		fprintf (stderr,
-			"%s Population Generator (Version %d.%d.%d)\n",
-			NAME, VERSION, RELEASE, PATCH);
-		fprintf (stderr, "Copyright %s %s\n", TPC, C_DATES);
+		// fprintf (stderr,
+		// 	"%s Population Generator (Version %d.%d.%d)\n",
+		// 	NAME, VERSION, RELEASE, PATCH);
+		// fprintf (stderr, "Copyright %s %s\n", TPC, C_DATES);
 		}
 	
 	load_dists ();
